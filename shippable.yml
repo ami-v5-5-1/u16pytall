@@ -1,14 +1,16 @@
 language: python
 
 python:
-  - 2.7 #2.7.12
-  - 3.4 #3.4.5
-  - 3.5 #3.5.2
-  - 3.6 #3.6.4
-  - pypy #5.10.0
-  - pypy3 #5.10.1
-
-build:
-    
+  - 2.6
+  - 2.7 (default if no runtime specified)
+  - 3.2
+  - 3.3
+  - 3.4
+  - 3.5
+  - 3.6
+  - pypy
+  - pypy3
+  
+build:    
   ci:
     - python --version 
